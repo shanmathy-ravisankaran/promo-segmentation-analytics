@@ -1,4 +1,8 @@
-# Smart Promo Analytics - Year-wise Discount Segmentation
+# Project: Promo Segmentation Analytics
+#Description: This script simulates customer segments, analyzes metrics like average profit,
+#discount, and repeat rate across years, and exports insights with charts and Excel reports.
+#Author: Shanmathy Ravisankaran
+#Date: 05/30/2024
 
 import pandas as pd
 import numpy as np
@@ -67,7 +71,7 @@ for container in ax.containers:
 plt.legend(title='Year')
 plt.tight_layout()
 
-#  Save the chart as PNG
+# Chart
 plt.savefig("segment_profit_by_year.png", dpi=300)
 plt.show()
 # Additional metrics visualized in bar plots
